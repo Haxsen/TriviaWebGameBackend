@@ -1,0 +1,6 @@
+@HaxsenTriviaServer_HostAddress = http://localhost:5155
+
+GET {{HaxsenTriviaServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
