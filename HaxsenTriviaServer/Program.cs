@@ -4,19 +4,14 @@ using Refit;
 var builder = WebApplication.CreateBuilder(args);
 
 // Note: ONLY FOR SECURITY, we dont need this for sample.
-//builder.Services.AddCors(options =>
-//{
-//    //options.AddPolicy("AllowReactApp",
-//    //    builder => builder
-//    //        .WithOrigins("http://localhost:3000")
-//    //        .AllowAnyMethod()
-//    //        .AllowAnyHeader());
-//    //options.AddPolicy("AllowAll",
-//    //    builder => builder
-//    //        .WithOrigins("*")
-//    //        .AllowAnyMethod()
-//    //        .AllowAnyHeader());
-//});
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        builder => builder
+            .WithOrigins("https://triviawebgamefrontend.onrender.com/")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
 
 builder.Services.AddControllers();
 builder.Services.AddRefitClient<IOpenTdbClient>()
@@ -40,8 +35,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 // Note: ONLY FOR SECURITY, we dont need this for sample.
-//app.UseCors("AllowReactApp");
-//app.UseCors("AllowAll");
+app.UseCors("AllowReactApp");
+//app.UseCors("AllowAll"); // in case we want to use `*`
 
 app.MapControllers();
 
