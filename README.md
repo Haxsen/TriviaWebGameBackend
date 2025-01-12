@@ -1,5 +1,7 @@
 # Trivia Service
 A simple service that fetches 10 question/answer JSON objects from OpenTdb.
+## See it live: [https://triviawebgamefrontend.onrender.com/](https://triviawebgamebackend.onrender.com/swagger/index.html)
+(you may have to wait 2 minutes for the server to get active)
 
 A frontend sample is here: https://github.com/Haxsen/TriviaWebGameFrontend
 
