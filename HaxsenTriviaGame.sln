@@ -5,15 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaxsenTriviaServer", "HaxsenTriviaServer\HaxsenTriviaServer.csproj", "{C527BC5D-E9D6-4A42-AF16-77A8F8FE32DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaxsenReactAppTrivia.Server", "HaxsenReactAppTrivia\HaxsenReactAppTrivia.Server\HaxsenReactAppTrivia.Server.csproj", "{6FFBD676-EFD8-477D-8910-04C772EBF8B0}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "haxsenreactapptrivia.client", "HaxsenReactAppTrivia\haxsenreactapptrivia.client\haxsenreactapptrivia.client.esproj", "{EF264D89-6368-45E0-AD87-8675573D5A6C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaxsenBlazorAppTrivia", "HaxsenBlazorAppTrivia\HaxsenBlazorAppTrivia.csproj", "{41D5D51B-BFCA-4C98-AE32-51B1887A38C1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaxsenTriviaServerTests", "HaxsenTriviaServer.Tests\HaxsenTriviaServerTests.csproj", "{0ECAB54C-DF99-4A5A-9A00-D1CF135C643D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriviaGameBlazor", "TriviaGameBlazor\TriviaGameBlazor.csproj", "{44A6B6D0-83A2-42E2-A65C-883ECFFD4035}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,28 +17,10 @@ Global
 		{C527BC5D-E9D6-4A42-AF16-77A8F8FE32DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C527BC5D-E9D6-4A42-AF16-77A8F8FE32DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C527BC5D-E9D6-4A42-AF16-77A8F8FE32DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FFBD676-EFD8-477D-8910-04C772EBF8B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FFBD676-EFD8-477D-8910-04C772EBF8B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FFBD676-EFD8-477D-8910-04C772EBF8B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FFBD676-EFD8-477D-8910-04C772EBF8B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF264D89-6368-45E0-AD87-8675573D5A6C}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{41D5D51B-BFCA-4C98-AE32-51B1887A38C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41D5D51B-BFCA-4C98-AE32-51B1887A38C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41D5D51B-BFCA-4C98-AE32-51B1887A38C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41D5D51B-BFCA-4C98-AE32-51B1887A38C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0ECAB54C-DF99-4A5A-9A00-D1CF135C643D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0ECAB54C-DF99-4A5A-9A00-D1CF135C643D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ECAB54C-DF99-4A5A-9A00-D1CF135C643D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ECAB54C-DF99-4A5A-9A00-D1CF135C643D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44A6B6D0-83A2-42E2-A65C-883ECFFD4035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44A6B6D0-83A2-42E2-A65C-883ECFFD4035}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44A6B6D0-83A2-42E2-A65C-883ECFFD4035}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44A6B6D0-83A2-42E2-A65C-883ECFFD4035}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
