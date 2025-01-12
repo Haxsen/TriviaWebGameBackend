@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp",
         builder => builder
-            .WithOrigins("https://triviawebgamefrontend.onrender.com/")
+            .WithOrigins("https://triviawebgamefrontend.onrender.com")
             .AllowAnyMethod()
             .AllowAnyHeader());
 });
